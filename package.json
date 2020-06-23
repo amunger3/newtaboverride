@@ -53,5 +53,11 @@
         "run:beta": "cd src && web-ext run --firefox=\"/Applications/Firefox Beta.app\"",
         "run:stable": "cd src && web-ext run --firefox=\"/Applications/Firefox Stable.app\"",
         "run:esr": "cd src && web-ext run --firefox=\"/Applications/Firefox ESR.app\""
+    },
+    "webExt": {
+        "verbose": true,
+        "run": {
+            "firefox": "C:/Program Files/Firefox Developer Edition/firefox.exe"
+        }
     }
 }
